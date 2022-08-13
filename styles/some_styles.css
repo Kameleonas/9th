@@ -1,0 +1,43 @@
+body{
+    height: 1000vh;
+}
+
+.container {
+    display: flex;
+    position: sticky;
+    width: 700px;
+    height: 500px;
+    top: 25%;
+    left: 30%;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #EBFFFF;
+}
+
+.square {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 150px;
+    background-color: blue;
+    opacity: .5;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.triangle {
+    position:absolute;
+    height: 50px;
+    background-color: transparent;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid green;
+    opacity: .6;
+}
